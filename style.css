@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.colors{
+    display: flex;
+    flex-direction: column;
+
+    background-color: blueviolet;
+}
+
+.btn_colors{
+    display:flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 25%;
+        
+}
+
+.btn_colors div{
+    background-color: rgb(16, 123, 123);
+    height: 40px;
+    width: 40px;
+}
+
+
+.main{
+    background-color: blueviolet;
+    height: 300px;
+    width: 50%;
+}
+
+.logics{
+    background-color: blueviolet;
+    height: 300px;
+    width: 25%;
+}
